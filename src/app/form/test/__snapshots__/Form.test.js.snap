@@ -16,11 +16,11 @@ exports[`render renders correctly 1`] = `
     placeHolder="E-mail"
     type="email"
   />
-  <styled.button
+  <StyledButton
     ariaLabel="submit form button"
     type="submit"
   >
     КОЛОРОНИРОВАТЬСЯ
-  </styled.button>
+  </StyledButton>
 </StyledForm>
 `;

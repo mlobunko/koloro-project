@@ -8,13 +8,13 @@ exports[`StyledButton renders correctly 1`] = `
 
 exports[`StyledForm renders correctly, landscape false 1`] = `
 <form
-  className="sc-bwzfXH cdQIts"
+  className="sc-bwzfXH fNumov"
 />
 `;
 
 exports[`StyledForm renders correctly, landscape true 1`] = `
 <form
-  className="sc-bwzfXH hdvaBa"
+  className="sc-bwzfXH dmqrMM"
 />
 `;
 

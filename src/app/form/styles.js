@@ -21,10 +21,11 @@ export const StyledButton = styled.button.attrs({
     background-color: gold;
   }
 `;
+StyledButton.displayName = "StyledButton";
 
 export const StyledForm = styled.form`
   width: 100%;
-  max-width: 28rem;
+  max-width: 26.5rem;
   padding: 2rem 1rem 0 1rem;
   margin: 0 auto;
   text-align: center;
