@@ -12,7 +12,8 @@ export const Logo = ({ landscape }) => (
         max: 80,
         reset: true,
         reverse: true,
-        perspective: 500
+        perspective: 500,
+        mobile: false
       }}
       className="tilt-elem my-tilt"
     >
