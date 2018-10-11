@@ -14,7 +14,7 @@
 
 ## Demo
 
-To see the project online click that link (not yet) <a href="https://mlobunko.github.io/portfolio/">DEMO</a>
+To see the project online click that link <a href="https://mlobunko.github.io/portfolio/">DEMO</a>
 
 ## Installation
 
