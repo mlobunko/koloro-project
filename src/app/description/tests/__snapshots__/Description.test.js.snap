@@ -22,7 +22,7 @@ exports[`render renders correctly 1`] = `
       ХОТИТЕ СОЗДАТЬ КОРОЛЕВСКИЙ БРЕНД?
     </div>
     <div>
-      ТОГДА СКОРЕЕ ЗАПОЛНЯЙТЕ ФОРМУ?
+      ТОГДА СКОРЕЕ ЗАПОЛНЯЙТЕ ФОРМУ!
     </div>
   </StyledBoldParagraph>
 </Fragment>

@@ -21,7 +21,7 @@ export const Description = ({ landscape }) => (
     </StyledStandardParagraph>
     <StyledBoldParagraph landscape={landscape}>
       <div>ХОТИТЕ СОЗДАТЬ КОРОЛЕВСКИЙ БРЕНД?</div>
-      <div>ТОГДА СКОРЕЕ ЗАПОЛНЯЙТЕ ФОРМУ?</div>
+      <div>ТОГДА СКОРЕЕ ЗАПОЛНЯЙТЕ ФОРМУ!</div>
     </StyledBoldParagraph>
   </React.Fragment>
 );
