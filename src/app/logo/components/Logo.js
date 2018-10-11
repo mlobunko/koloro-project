@@ -5,18 +5,7 @@ import { StyledLogoO, StyledLogoWords, StyledReactTilt } from "./styles";
 export const Logo = ({ landscape }) => (
   <React.Fragment>
     <StyledLogoWords landscape={landscape} />
-    <StyledReactTilt
-      landscape={landscape}
-      options={{
-        "position-base": "window",
-        max: 80,
-        reset: true,
-        reverse: true,
-        perspective: 500,
-        mobile: false
-      }}
-      className="tilt-elem my-tilt"
-    >
+    <StyledReactTilt landscape={landscape} className="tilt-elem my-tilt">
       <StyledLogoO landscape={landscape} className="Tilt-inner" />
     </StyledReactTilt>
   </React.Fragment>

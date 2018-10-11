@@ -5,24 +5,14 @@ exports[`render renders correctly 1`] = `
   <StyledLogoWords
     landscape={true}
   />
-  <Styled(t)
+  <StyledReactTilt
     className="tilt-elem my-tilt"
     landscape={true}
-    options={
-      Object {
-        "max": 80,
-        "mobile": false,
-        "perspective": 500,
-        "position-base": "window",
-        "reset": true,
-        "reverse": true,
-      }
-    }
   >
     <StyledLogoO
       className="Tilt-inner"
       landscape={true}
     />
-  </Styled(t)>
+  </StyledReactTilt>
 </Fragment>
 `;

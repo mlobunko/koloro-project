@@ -36,8 +36,18 @@ export const StyledLogoWords = styled.div`
     margin-left: ${props => (props.landscape ? "4rem" : "auto")};
   }
 `;
+StyledLogoWords.displayName = "StyledLogoWords";
 
-export const StyledReactTilt = styled(ReactTilt)`
+export const StyledReactTilt = styled(ReactTilt).attrs({
+  options: {
+    "position-base": "window",
+    max: 40,
+    reset: true,
+    reverse: true,
+    perspective: 5000,
+    mobile: false
+  }
+})`
   position: absolute;
   height: 4rem;
   width: 11rem;
@@ -49,5 +59,4 @@ export const StyledReactTilt = styled(ReactTilt)`
     margin-left: ${props => (props.landscape ? "0" : "auto")};
   }
 `;
-
-StyledLogoWords.displayName = "StyledLogoWords";
+StyledReactTilt.displayName = "StyledReactTilt";

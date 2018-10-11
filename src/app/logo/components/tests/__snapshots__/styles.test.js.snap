@@ -28,6 +28,16 @@ exports[`StyledReactTilt renders correctly, landscape false 1`] = `
 <t
   className="sc-htpNat jAURfV"
   landscape={false}
+  options={
+    Object {
+      "max": 40,
+      "mobile": false,
+      "perspective": 5000,
+      "position-base": "window",
+      "reset": true,
+      "reverse": true,
+    }
+  }
 />
 `;
 
@@ -35,5 +45,15 @@ exports[`StyledReactTilt renders correctly, landscape true 1`] = `
 <t
   className="sc-htpNat egoDtD"
   landscape={true}
+  options={
+    Object {
+      "max": 40,
+      "mobile": false,
+      "perspective": 5000,
+      "position-base": "window",
+      "reset": true,
+      "reverse": true,
+    }
+  }
 />
 `;
