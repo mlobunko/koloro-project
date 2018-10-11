@@ -57,3 +57,37 @@ exports[`StyledReactTilt renders correctly, landscape true 1`] = `
   }
 />
 `;
+
+exports[`StyledReactTiltMobile renders correctly, landscape false 1`] = `
+<t
+  className="sc-bxivhb kptwTn"
+  landscape={false}
+  options={
+    Object {
+      "max": 80,
+      "mobile": false,
+      "perspective": 500,
+      "position-base": "window",
+      "reset": true,
+      "reverse": true,
+    }
+  }
+/>
+`;
+
+exports[`StyledReactTiltMobile renders correctly, landscape true 1`] = `
+<t
+  className="sc-bxivhb knxvqq"
+  landscape={true}
+  options={
+    Object {
+      "max": 80,
+      "mobile": false,
+      "perspective": 500,
+      "position-base": "window",
+      "reset": true,
+      "reverse": true,
+    }
+  }
+/>
+`;

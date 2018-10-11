@@ -41,7 +41,10 @@ export class Main extends React.Component {
         <StyledGradient>
           <StyledMain landscape={this.state.isLandscape}>
             <StyledTextBlock>
-              <Logo landscape={this.state.isLandscape} />
+              <Logo
+                landscape={this.state.isLandscape}
+                clientWidth={document.documentElement.clientWidth}
+              />
               <Description landscape={this.state.isLandscape} />
               <Form landscape={this.state.isLandscape} />
             </StyledTextBlock>

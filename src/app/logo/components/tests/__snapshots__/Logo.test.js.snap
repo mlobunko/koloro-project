@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render renders correctly 1`] = `
+exports[`render renders correctly, render StyledReactTilt 1`] = `
 <Fragment>
   <StyledLogoWords
     landscape={true}
@@ -14,5 +14,39 @@ exports[`render renders correctly 1`] = `
       landscape={true}
     />
   </StyledReactTilt>
+</Fragment>
+`;
+
+exports[`render renders correctly, render StyledReactTiltMobile clientWidth < 1024 1`] = `
+<Fragment>
+  <StyledLogoWords
+    landscape={true}
+  />
+  <StyledReactTiltMobile
+    className="tilt-elem my-tilt"
+    landscape={true}
+  >
+    <StyledLogoO
+      className="Tilt-inner"
+      landscape={true}
+    />
+  </StyledReactTiltMobile>
+</Fragment>
+`;
+
+exports[`render renders correctly, render StyledReactTiltMobile landscape false 1`] = `
+<Fragment>
+  <StyledLogoWords
+    landscape={false}
+  />
+  <StyledReactTiltMobile
+    className="tilt-elem my-tilt"
+    landscape={false}
+  >
+    <StyledLogoO
+      className="Tilt-inner"
+      landscape={false}
+    />
+  </StyledReactTiltMobile>
 </Fragment>
 `;

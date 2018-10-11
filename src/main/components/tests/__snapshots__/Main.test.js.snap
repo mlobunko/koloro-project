@@ -8,6 +8,7 @@ exports[`render renders correctly 1`] = `
     >
       <StyledTextBlock>
         <Logo
+          clientWidth={200}
           landscape={true}
         />
         <Component

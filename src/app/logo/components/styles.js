@@ -60,3 +60,26 @@ export const StyledReactTilt = styled(ReactTilt).attrs({
   }
 `;
 StyledReactTilt.displayName = "StyledReactTilt";
+
+export const StyledReactTiltMobile = styled(ReactTilt).attrs({
+  options: {
+    "position-base": "window",
+    max: 80,
+    reset: true,
+    reverse: true,
+    perspective: 500,
+    mobile: false
+  }
+})`
+  position: absolute;
+  height: 4rem;
+  width: 11rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  @media (min-width: 1024px) {
+    margin-left: ${props => (props.landscape ? "0" : "auto")};
+  }
+`;
+StyledReactTiltMobile.displayName = "StyledReactTiltMobile";
