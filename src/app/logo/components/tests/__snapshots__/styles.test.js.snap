@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledLogoO renders correctly, landscape false 1`] = `
+<div
+  className="sc-bdVaJa xHRFh"
+/>
+`;
+
+exports[`StyledLogoO renders correctly, landscape true 1`] = `
+<div
+  className="sc-bdVaJa ktNRbW"
+/>
+`;
+
+exports[`StyledLogoWords renders correctly, landscape false 1`] = `
+<div
+  className="sc-bwzfXH dKwhYy"
+/>
+`;
+
+exports[`StyledLogoWords renders correctly, landscape true 1`] = `
+<div
+  className="sc-bwzfXH gQmgmc"
+/>
+`;
+
+exports[`StyledReactTilt renders correctly, landscape false 1`] = `
+<t
+  className="sc-htpNat jAURfV"
+  landscape={false}
+/>
+`;
+
+exports[`StyledReactTilt renders correctly, landscape true 1`] = `
+<t
+  className="sc-htpNat egoDtD"
+  landscape={true}
+/>
+`;

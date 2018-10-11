@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledLink renders correctly, all properties exists 1`] = `
+<a
+  aria-label="Link to family"
+  className="sc-bdVaJa iOrTop"
+  href="123"
+  rel="noopener noreferrer"
+  target="_blank"
+/>
+`;
+
+exports[`StyledLink renders correctly, textColor false 1`] = `
+<a
+  aria-label="Link to family"
+  className="sc-bdVaJa efIPLF"
+  href="123"
+  rel="noopener noreferrer"
+  target="_blank"
+/>
+`;

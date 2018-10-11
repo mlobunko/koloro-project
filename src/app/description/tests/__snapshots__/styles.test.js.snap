@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledBoldParagraph renders correctly, landscape false 1`] = `
+<div
+  className="sc-bdVaJa fGCmPb"
+/>
+`;
+
+exports[`StyledBoldParagraph renders correctly, landscape true 1`] = `
+<div
+  className="sc-bdVaJa kyzRwg"
+/>
+`;
+
+exports[`StyledH1 renders correctly, landscape false 1`] = `
+<h1
+  className="sc-bwzfXH fTEPwo"
+/>
+`;
+
+exports[`StyledH1 renders correctly, landscape true 1`] = `
+<h1
+  className="sc-bwzfXH eLVHlA"
+/>
+`;
+
+exports[`StyledItalicText renders correctly 1`] = `
+<span
+  className="sc-htpNat hQpdAy"
+/>
+`;
+
+exports[`StyledStandardParagraph renders correctly, landscape false 1`] = `
+<div
+  className="sc-bxivhb dFubON"
+/>
+`;
+
+exports[`StyledStandardParagraph renders correctly, landscape true 1`] = `
+<div
+  className="sc-bxivhb ifQbED"
+/>
+`;

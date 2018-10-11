@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<Fragment>
+  <StyledH1
+    landscape={true}
+  >
+    <StyledItalicText>
+      #КОЛОНИРУЙСЯ
+    </StyledItalicText>
+     - СТАНЬ ЧАСТЬЮ СЕМЬИ УСПЕШНЫХ КЛИЕНТОВ KOLORO
+  </StyledH1>
+  <StyledStandardParagraph
+    landscape={true}
+  >
+    Брендинговое агентство KOLORO – создаем, позиционируем и продаем бренды. Индивидуальный подход к каждому проекту и восьмилетний опыт на рынке научили нас делать быстро, качественно и креативно!
+  </StyledStandardParagraph>
+  <StyledBoldParagraph
+    landscape={true}
+  >
+    <div>
+      ХОТИТЕ СОЗДАТЬ КОРОЛЕВСКИЙ БРЕНД?
+    </div>
+    <div>
+      ТОГДА СКОРЕЕ ЗАПОЛНЯЙТЕ ФОРМУ?
+    </div>
+  </StyledBoldParagraph>
+</Fragment>
+`;

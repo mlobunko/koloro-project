@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<StyledForm
+  landscape={true}
+>
+  <StyledInput
+    placeHolder="Имя"
+    type="text"
+  />
+  <StyledInput
+    placeHolder="Телефон"
+    type="tel"
+  />
+  <StyledInput
+    placeHolder="E-mail"
+    type="email"
+  />
+  <styled.button
+    ariaLabel="submit form button"
+    type="submit"
+  >
+    КОЛОРОНИРОВАТЬСЯ
+  </styled.button>
+</StyledForm>
+`;

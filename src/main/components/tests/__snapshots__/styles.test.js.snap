@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledGradient renders correctly 1`] = `
+<div
+  className="sc-bdVaJa cThvqa"
+/>
+`;
+
+exports[`StyledImageGameOfThrones renders correctly, landscape false 1`] = `
+<div
+  className="sc-bwzfXH hquYfs"
+/>
+`;
+
+exports[`StyledImageGameOfThrones renders correctly, landscape true 1`] = `
+<div
+  className="sc-bwzfXH gGTZba"
+/>
+`;
+
+exports[`StyledMain renders correctly, landscape false 1`] = `
+<div
+  className="sc-htpNat hdBNbd"
+/>
+`;
+
+exports[`StyledMain renders correctly, landscape true 1`] = `
+<div
+  className="sc-htpNat dgIRnh"
+/>
+`;
+
+exports[`StyledTextBlock renders correctly 1`] = `
+<div
+  className="sc-bxivhb jcNPuI"
+/>
+`;

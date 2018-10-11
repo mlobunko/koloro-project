@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledButton renders correctly 1`] = `
+<button
+  className="sc-bdVaJa jlfEA"
+/>
+`;
+
+exports[`StyledForm renders correctly, landscape false 1`] = `
+<form
+  className="sc-bwzfXH cdQIts"
+/>
+`;
+
+exports[`StyledForm renders correctly, landscape true 1`] = `
+<form
+  className="sc-bwzfXH hdvaBa"
+/>
+`;
+
+exports[`StyledInput renders correctly 1`] = `
+<input
+  className="sc-htpNat krZMaS"
+/>
+`;
